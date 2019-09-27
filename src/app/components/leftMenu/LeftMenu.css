@@ -1,0 +1,26 @@
+.crn-left-col {
+    position: relative;
+    height: 100%;
+}
+
+.crn-left-col .svg-inline--fa {
+    padding-right: 10px;
+}
+
+.crn-left-col .crn-software-info {
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+}
+
+.crn-software-info .btn {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.crn-software-info p {
+    color: darkgray;
+    font-size: 0.7rem;
+}

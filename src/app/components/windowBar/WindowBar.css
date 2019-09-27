@@ -1,0 +1,54 @@
+.window-bar {
+    display: inline-flex;
+    line-height: 0;
+    width: 100%;
+    padding: 8px 8px 10px 0;
+    -webkit-app-region: drag;
+}
+
+.window-bar-btn {
+    border-radius: 2rem;
+    margin-left: 8px;
+    -webkit-app-region: no-drag;
+}
+
+.window-bar-btn svg {
+    padding: 2px;
+    font-size: 1em;
+}
+
+.window-bar-btn path {
+    display: none;
+}
+
+.window-bar:hover path {
+    display: block;
+}
+
+#close-btn {
+    background: #fc5753;
+    border: 1px solid #df4744;
+}
+
+#close-btn path {
+    color: #7e0508;
+}
+
+#maximize-btn {
+    background: #33c748;
+    border: 1px solid #27aa35;
+}
+
+#maximize-btn path {
+    color:#0b650d;
+}
+
+#minimize-btn {
+    background: #fdbc40;
+    border: 1px solid #de9f34;
+    margin-left: auto;
+}
+
+#minimize-btn path {
+    color: #985712;
+}

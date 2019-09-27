@@ -1,0 +1,45 @@
+.crn-right-col {
+    padding: 10px 45px;
+}
+
+/* .nav-bar-row {
+    display: flex;
+} */
+
+/* --------------- HOME START --------------- */
+.col-slider {
+    flex: 0 0 68%;
+    max-width: 68%;
+}
+.col-categories {
+    flex: 0 0 32%;
+    max-width: 32%;
+    display: flex;
+}
+.col-vr-ready, .col-vr-waiting {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-slider, #waiting-card-1, .col-vr-ready {
+    padding-right: 15px;
+}
+.col-vr-waiting {
+    padding-left: 20px;
+}
+
+.game-shortcut-row {
+    padding-top: 50px;
+}
+.game-shortcut-row .row {
+    flex-wrap: inherit;
+}
+.head-text {
+    padding-bottom: 15px;
+}
+.card-game img {
+    object-fit: cover;
+}
+.col-vr-waiting img {
+    opacity: 0.5;
+}
+/* --------------- HOME END --------------- */

@@ -1,0 +1,51 @@
+$body-color: #fff;
+
+$danger: #ad0000;
+$gray-500: #a3a3a3;
+
+$link-color: $gray-500;
+$link-hover-color: $body-color;
+
+$nav-link-padding-x: 0;
+
+$font-size-base: 0.85rem;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Montserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+
+
+//ADD CUSTOM CSS
+body {
+    background: url('../images/bg-main.jpg') fixed no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.svg-inline--fa {
+    width: 26px !important;
+}
+
+.row {
+    margin: 0;
+}
+
+.simplebar-scrollbar:before {
+    background: #414141;
+}
+
+/* LEFT COL START */
+.crn-row .left {
+    background-color: #1a1a1a;
+    opacity: 0.99;
+    padding: 30px;
+}
+/* LEFT COL START */
+
+/* RIGHT COL START */
+.crn-row .right{
+    background-color: #1a1a1a;
+    opacity: 0.95;
+    padding: 0;
+}
+/* RIGHT COL END */
