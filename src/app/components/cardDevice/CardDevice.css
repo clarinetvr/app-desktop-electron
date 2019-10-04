@@ -1,0 +1,36 @@
+.card-device {
+    margin: 5vh 10vw;
+}
+
+.des-device .MuiSvgIcon-root {
+    color: #00C920;
+    
+}
+
+.show-device {
+    display: flex;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.show-device .status-device {
+    color: #A3A3A3;
+}
+
+.show-device img {
+    margin-left: -50px;
+    margin-right: 70px;
+    width: 40%;
+}
+
+.des-device {
+    padding-top: 30px;
+}
+
+.add-device-btn {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #000000 !important;
+    color: #C5C5C5 !important;
+}

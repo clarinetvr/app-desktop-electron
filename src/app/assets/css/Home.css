@@ -1,12 +1,3 @@
-.crn-right-col {
-    padding: 10px 45px;
-}
-
-/* .nav-bar-row {
-    display: flex;
-} */
-
-/* --------------- HOME START --------------- */
 .col-slider {
     flex: 0 0 68%;
     max-width: 68%;
@@ -33,6 +24,11 @@
 .game-shortcut-row .row {
     flex-wrap: inherit;
 }
+
+.game-shortcut-row img {
+    border-radius: 5px;
+}
+
 .head-text {
     padding-bottom: 15px;
 }
@@ -42,4 +38,3 @@
 .col-vr-waiting img {
     opacity: 0.5;
 }
-/* --------------- HOME END --------------- */

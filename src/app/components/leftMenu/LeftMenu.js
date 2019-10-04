@@ -42,7 +42,6 @@ export default class LeftMenu extends React.Component {
                     </div>
                 </div>
                 <div className="crn-software-info">
-                    
                     <NavLink to="#" className="btn btn-danger" role="button">UPDATE SOFTWARE</NavLink>
                     <p id="show-software-ver">BETA V 0.1.1</p>
                 </div>

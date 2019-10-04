@@ -1,12 +1,17 @@
 import React from 'react'
 import './CardGame.css'
+import { NotificationsActive } from '@material-ui/icons'
 
-export default class CardGame extends React.Component {
-    render() {
-        return(
-            <div className="card-game">
-                <img src={this.props.img} className="img-fluid" alt="Game Card" />
-            </div>
-        )
+export default function CardGame(props) {
+    const bgImg = {
+        backgroundImage: `url(${props.gameImg})`
     }
+
+    return (
+        <div className="card-game" style={bgImg}>
+            <h5 className="card-game-name">{props.gameName}</h5>
+            <p className="card-game-des">{props.gameDes}</p>
+            <button className="btn remind-btn">REMIND ME <NotificationsActive/></button>
+        </div>
+    )
 } 

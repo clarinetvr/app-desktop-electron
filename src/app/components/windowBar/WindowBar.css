@@ -4,6 +4,8 @@
     width: 100%;
     padding: 8px 8px 10px 0;
     -webkit-app-region: drag;
+    position: relative;
+    z-index: 100;
 }
 
 .window-bar-btn {

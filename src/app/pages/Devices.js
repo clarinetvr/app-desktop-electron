@@ -1,19 +1,14 @@
 import React from 'react';
+import CardDevice from '../components/cardDevice/CardDevice'
+import DeviceImg from '../assets/images/vr-headset-icon.png'
 
-class Devices extends React.Component {
-    // constructor(props) {
-    //     super(props)
-    //     this.props = {
-    //         logo: null,
-    //     }
-    // }
+import '../assets/css/Devices.css'
 
-    render() {
+export default function Devices() {
         return(
-            <div className="crn-right-col">
+            <div className="crn-right-col devices">
+                <CardDevice deviceImg={DeviceImg} deviceName={'Oculus Rift S'} deviceStatus={'Connected'}/>
             </div>
         );
-    }
+    
 }
-
-export default Devices

@@ -1,7 +1,23 @@
-/* .card-game {
-    padding-right: 15px;
-} */
-
-.card-game img {
+.card-game {
     border-radius: 5px;
+    background-size: cover;
+    padding: 20px 30px;
+    width: 280px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.card-game-name {
+    font-weight: 700;
+}
+
+.remind-btn {
+    margin-top: 20px;
+    background-color: #880000 !important;
+    font-size: 0.7rem !important;
+}
+
+.remind-btn svg {
+    font-size: 1.2rem;
+    margin-left: 5px;
 }

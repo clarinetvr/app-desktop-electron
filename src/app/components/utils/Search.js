@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Input from '@material-ui/core/Input'
 import './utils.css'
 
 export default class Search extends React.Component {
@@ -7,7 +8,12 @@ export default class Search extends React.Component {
         return (
             <div className="search-module">
                 <FontAwesomeIcon icon="search" />
-                <input type="search" placeholder="Search..." aria-label="Search" />
+                <Input
+                    placeholder="Search..."
+                    inputProps={{
+                        'aria-label': 'search field',
+                    }}
+                />
             </div>
         )
     }

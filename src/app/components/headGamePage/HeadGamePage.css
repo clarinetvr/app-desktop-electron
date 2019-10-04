@@ -1,0 +1,30 @@
+.head-game-page {
+    padding: 2vw 7vw 0 7vw;
+    height: 40vh;
+    /* background-image: url('./overwatch.jpg');
+    background-size: cover;
+    background-position: center; */
+}
+
+.head-game-page img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75vw;
+    z-index: -100;
+}
+
+.head-game-page .game-name {
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.head-game-page .game-des {
+    color: #dddddd;
+    margin-bottom: 30px;
+}
+
+.head-game-page .btn-install {
+    font-size: 0.75rem;
+    font-weight: 600;
+}

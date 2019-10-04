@@ -1,0 +1,13 @@
+.plan-zone, .payment-zone {
+    padding: 0 15px;
+}
+
+.head-text .MuiSvgIcon-root {
+    /* font-size: 1.2rem !important; */
+    margin-left: 10px;
+    color: #a1a1a1;
+}
+
+#your-plan b {
+    color: #AD0000;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavigateNextIcon } from '@material-ui/icons'
+
 import './CardCategory.css'
 
 export default class CardCategory extends React.Component {

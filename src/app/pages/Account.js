@@ -5,7 +5,7 @@ import Input from '@material-ui/core/Input'
 import InputLabel from '@material-ui/core/InputLabel'
 
 import userImgDemo from '../assets/images/man.png'
-import './Account.css'
+import '../assets/css/Account.css'
 
 export default function Account() {
     const [name, setName, username, email, password, linkedSocialAcc] = React.useState('John Doe');
@@ -13,7 +13,6 @@ export default function Account() {
     const handleChange = event => {
         setName(event.target.value);
     };
-
 
     return (
         <div className="crn-right-col row account-row">
@@ -39,7 +38,7 @@ export default function Account() {
                     />
                     <FormHelperText id="component-helper-text">add unique username</FormHelperText>
                 </FormControl>
-                
+
                 <FormControl className="account-input">
                     <InputLabel htmlFor="component-helper">Email</InputLabel>
                     <Input
@@ -78,5 +77,5 @@ export default function Account() {
             </div>
 
         </div>
-    );
+    )
 }

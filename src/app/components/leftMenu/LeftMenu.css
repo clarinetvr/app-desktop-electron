@@ -14,8 +14,12 @@
     width: 100%;
 }
 
+.crn-left-col .active svg {
+    color: #fff;
+}
+
 .crn-software-info .btn {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     font-weight: 600;
     margin-bottom: 10px;
 }

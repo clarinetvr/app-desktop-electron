@@ -4,7 +4,7 @@ std::string functionexample::hello(){
     return "Hello World";
 }
 
-int functionexample::add(int a, int b){
+int functionexample::add(int a, int b) {
   return a + b;
 }
 

@@ -1,0 +1,56 @@
+.show-credit-card {
+    padding: 20px 40px;
+    background-color: #233C65;
+    background-size: auto;
+    border-radius: 10px;
+}
+
+.card-logo {
+    width: 30%;
+}
+
+.payment-form {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.payment-card {
+    padding-right: 0;
+}
+
+.top-card .MuiSvgIcon-root {
+    margin: auto 0 auto auto;
+    color: #00C920;
+    font-size: 2rem;
+}
+
+.top-card, .bottom-card {
+    display: inline-flex;
+}
+
+.middle-card {
+    margin-top: 20px;
+}
+
+.middle-card p {
+    font-size: 1.2rem;
+}
+
+.bottom-card {
+    width: 100%;
+}
+
+.bottom-card h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #53688B;
+}
+
+.bottom-card p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.bottom-card .card-exp {
+    margin-left: auto;
+}
